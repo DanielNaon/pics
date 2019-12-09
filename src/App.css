@@ -1,7 +1,11 @@
+body{
+  background-color: #ffcccc;
+}
 .App {
   display: grid;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
+  
 }
 
 .regularpicContainer{

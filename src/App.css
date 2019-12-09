@@ -1,38 +1,123 @@
 .App {
+  display: grid;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+.regularpicContainer{
+  grid-gap: 10px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+
+.picture{
+width: 200px;
+height: 200px;
+border: 6px;
+border-radius: 4px;
+border: 6px dotted rgb(156, 108, 17);
+}
+
+.favepics{
+width: 200px;
+height: 200px;
+border: 4px;
+margin-right: 4px;
+text-align: center;
+align-content: center;
+border-radius: 8px;
+border: 6px dotted rgb(37, 9, 165);
+}
+.favepicsbig{
+width: 380px;
+height: 300px;
+border: 4px;
+margin-right: 4px;
+text-align: center;
+align-content: center;
+border-radius: 8px;
+border: 6px dotted rgb(50, 138, 160);
+}
+
+.header{
+  color: yellow;
+  font-family: 'Aladin', cursive;
+  font-size: 90px;
+  margin-top: 4%;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px black;
+}
+
+.description{
+  grid: center;
+  font-size: 20px;
+  position: relative;
+}
+
+.description1{
+  grid: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 1%;
+}
+
+.description2{
+  grid: center;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.input{
+  border-radius: 10px;
+  border: 4x solid rosybrown;
+  border-radius: 14px;
+  width: 500px;
+  height: 50px;
+  margin-top: 2%;
+
+  font-family: 'Viga', sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.search{
+  width: 110px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: wheat;
+  font-family: 'Viga', sans-serif;
+}
+
+
+.deleteFromFave{
+  border: 2px solid rosybrown;
+  border-radius: 7px;
+  background-color: rgba(229, 245, 9, 0.815);
+  margin-bottom: 10px;
+}
+.button{
+  border: 2px solid rosybrown;
+  border-radius: 7px;
+  background-color: rgba(229, 245, 9, 0.815);
+  margin-bottom: 10px;
+}
+.pictureComponent{
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+.headerContainer{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.favouriteContainer{
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.photoContainer{
+  text-align: center;
 }
